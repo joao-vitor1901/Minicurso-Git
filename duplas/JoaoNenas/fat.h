@@ -1,8 +1,7 @@
-//Insira seu nome
-#define NOME_FAT "__"
+#define NOME_FAT "_Joao_"
 
-
-int fatorial(int n){
-    //TODO!
-    return 0;
+ long fatorial(int n) {
+     long r = 1;
+    for (int i = 2; i <= n; i++) r *= i;
+    return n < 0 ? -1 : r;
 }
